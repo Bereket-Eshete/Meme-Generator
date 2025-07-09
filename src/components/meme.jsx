@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Meme() {
+const Meme = () => {
   const [meme, setMeme] = React.useState({
     topText: "",
     bottomText: "",
@@ -64,4 +64,5 @@ export default function Meme() {
       </div>
     </main>
   );
-}
+};
+export default Meme;
